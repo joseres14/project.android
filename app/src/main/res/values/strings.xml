@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Proyect1.0</string>
+    <string name="str_welcome">Bienvenido</string>
+    <string name="text_username">Usuario</string>
+    <string name="text_your_username">Tu Usuario</string>
+    <string name="text_password">Constraseña</string>
+    <string name="text_your_password">Tu contraseña</string>
+    <string name="text_button_login">Iniciar Sesion</string>
+    <string name="text_welcome">BIENVENIDO</string>
+    <string name="text_incorrect_username" >Nombre de Usuario Incorrecto</string>
+    <string name="text_incorrect_password" >Contraseña Incorrecta</string>
+
+    <string name="action_search" >Buscar</string>
+    <string name="action_settings" >Ajustes</string>
+    <string name="action_about" >Acerca de </string>
+    <string name="email" >jose@gmail.com </string>
+    <string name="to_do" >to do</string>
+    <string name="profile" >Profile</string>
+    <string name="logout" >Logout</string>
+
+</resources>

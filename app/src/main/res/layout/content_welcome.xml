@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@drawable/bg_color"
+        android:id="@+id/my_toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        app:titleTextColor="@android:color/primary_text_dark"
+        android:elevation="4dp"
+        android:theme="@style/AppBarOverlayDark"
+        app:popupTheme="@style/PopupOverlayLigth" />
+
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/my_toolbar"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph"/>
+
+
+
+
+</RelativeLayout>
