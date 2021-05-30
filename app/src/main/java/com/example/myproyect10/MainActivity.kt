@@ -23,8 +23,8 @@ class MainActivity : AppCompatActivity() {
 
     fun onLogin(view: View) {
         //Toast.makeText(this, "Welcome!", Toast.LENGTH_LONG).show()
-        if (User!!.text.toString().equals("jose")) {
-            if (Password!!.text.toString().equals("123")) {
+        if (User!!.text.toString().equals("")) {
+            if (Password!!.text.toString().equals("")) {
                 val cambioAWelcomeActivity = Intent(this, WelcomeActivity::class.java)
 
 
